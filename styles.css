@@ -1,0 +1,128 @@
+body {
+  height: 2000px;
+  font-family: "MyriadProRegular";
+}
+
+.container {
+  position: relative;
+  margin: 200px auto 0px auto;
+  width: 562px; 
+}
+
+.page {
+  position: absolute;
+  height: 687px;
+  width: 458px;
+  border: 2px solid black;
+  padding: 30px 32px 30px 30px;
+}
+.first-page {
+  background: #e8e8e8;
+}
+.second-page {
+  background: #c6c6c6;
+  left: 20px;
+  top: 20px;
+}
+.third-page {
+  background: #a4a4a4;
+  left: 40px;
+  top: 40px;
+}
+
+.bookmark {
+   height: 32px;
+   width: 108px;
+   position: absolute;
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+   border: 2px solid black;
+}
+.first-bookmark {
+  background-color: #f0824f;
+  right: -84px;
+  top: 38px;
+}
+.second-bookmark {
+  background-color: #41ae4a;
+  right: -50px;
+  top: 40px;
+}
+.third-bookmark {
+  background-color: #2ea4ea;
+  right: -16px;
+  top: 45px;
+}
+
+h2 {
+  margin: 3px 0px 6px 0px;
+}
+h3 {
+  margin: 16px 0px 5px 0px;
+  font-size: 18px;
+}
+
+p {
+  margin: 12px 0px 17px 0px;
+  font-size: 12px;
+  min-height: 144px;
+}
+
+.picture-1 {
+  width: 207px;
+  height: 111px;
+  float: left;
+  margin: 3px 21px 8px 2px;
+}
+
+.picture-2 {
+  height: 140px;
+  width: 140px;
+  float: right;
+  margin: 4px 0px 0px 6px;
+}
+
+.jokes-line > img {
+  width: 194px;
+  height: 89px;
+  margin-top: 14px;
+}
+.jokes-line > img:first-of-type {
+  float: left;
+}
+.jokes-line > img:last-of-type {
+  float: right;
+}
+
+footer {
+  position: absolute;
+  margin-right: 30px;
+  bottom: 49px;
+  font-size: 9px;
+  text-align: center;
+}
+
+.share {
+  position: fixed;
+  background-color: #f5a458;
+  height: 66px;
+  width: 86px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid black;
+  padding: 1px;
+}
+
+h4 {
+  text-align: center;
+  margin: 3px 0px 4px 0px;
+  font-size: 16px;
+}
+
+.share > img {
+  margin: 3px;
+  border-radius: 50%;
+  width: 20px;
+}
+
+
